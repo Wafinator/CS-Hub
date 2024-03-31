@@ -1,0 +1,135 @@
+/* Apply a universal box-sizing */
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body, ul, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex; /* Sets up flexbox layout */
+    flex-direction: column; /* Stacks children vertically */
+    min-height: 100vh; /* Minimum height of the viewport */
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+}
+
+
+
+/* Container class to center content */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Styling the header */
+header .title-header {
+    position: relative;
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+nav ul li a {
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    background-color: #555;
+}
+
+.logo{
+    position: absolute;
+    left: 410px;
+    top: 20px;
+}
+
+/* Styling the main content */
+.welcome-section {
+    padding: 50px 0;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+.welcome-section h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.welcome-section p {
+    font-size: 1.1em;
+    line-height: 1.5;
+}
+
+.latest-news {
+    padding: 50px 0;
+}
+
+.latest-news h2 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+.news-item {
+    margin-bottom: 30px;
+}
+
+.news-item img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.news-item p {
+    font-size: 1.1em;
+    line-height: 1.5;
+}
+
+main{
+    flex-grow: 1;
+}
+
+/* Styling the footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 10px;
+    margin-top: auto;
+}
+
+.readmore a {
+    text-decoration: none; /* Removes the underline */
+    color: #351dbd; 
+}
+
+.readmore a:hover {
+    text-decoration: underline; 
+}
+
+.news-image1 img{
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+
+
+

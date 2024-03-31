@@ -1,0 +1,57 @@
+body, ul, h1, h2, p {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    background: #f4f4f4;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.title-header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.search-container {
+    width: 100%; 
+    max-width: 600px;
+    margin: 0 auto; /* Centering the search bar container */
+    padding: 20px;
+}
+
+#searchBar {
+    width: 100%; /* Ensures the search bar fills its container */
+    padding: 10px;
+    margin-bottom: 20px; /* Provides spacing below the search bar */
+    box-sizing: border-box; 
+}
+
+
+.tutorial {
+    background-color: #fff;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.tutorial h2 {
+    color: #333; /* Consistent color theme with 'Read More' links */
+}
+
+.tutorial a {
+    text-decoration: none;
+    color: #351dbd;
+    font-weight: bold;
+}
+
+.tutorial a:hover {
+    text-decoration: underline;
+}
